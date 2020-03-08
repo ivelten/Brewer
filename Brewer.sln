@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{B7A36F83-3812-4317-ACDC-B8D82BBE2669}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewer.Domain", "Brewer.Domain\Brewer.Domain.csproj", "{12CDE73C-D242-4BF1-B39C-19488BB1CDC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brewer.Domain", "Brewer.Domain\Brewer.Domain.csproj", "{12CDE73C-D242-4BF1-B39C-19488BB1CDC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F2446907-204C-4C10-AB2F-4A1BBD5E3399}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{12CDE73C-D242-4BF1-B39C-19488BB1CDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,5 +34,14 @@ Global
 		{12CDE73C-D242-4BF1-B39C-19488BB1CDC9}.Release|x64.Build.0 = Release|Any CPU
 		{12CDE73C-D242-4BF1-B39C-19488BB1CDC9}.Release|x86.ActiveCfg = Release|Any CPU
 		{12CDE73C-D242-4BF1-B39C-19488BB1CDC9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12CDE73C-D242-4BF1-B39C-19488BB1CDC9} = {F2446907-204C-4C10-AB2F-4A1BBD5E3399}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15501B4C-DDDF-4351-B810-857503207199}
 	EndGlobalSection
 EndGlobal

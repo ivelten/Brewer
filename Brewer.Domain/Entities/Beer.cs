@@ -21,3 +21,4 @@
         public Taste Taste { get; set; }
     }
 }
+

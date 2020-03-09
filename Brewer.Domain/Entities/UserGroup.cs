@@ -6,6 +6,6 @@ namespace Brewer.Domain.Entities
     {
         public string Name { get; set; }
 
-        public ICollection<Permission> Permissions { get; set; }
+        public List<Permission> Permissions { get; set; }
     }
 }

@@ -15,6 +15,6 @@ namespace Brewer.Domain.Entities
 
         public bool IsActive { get; set; }
 
-        public ICollection<UserGroup> Groups { get; set; }
+        public List<UserGroup> Groups { get; set; }
     }
 }

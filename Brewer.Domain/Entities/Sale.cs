@@ -21,6 +21,6 @@ namespace Brewer.Domain.Entities
 
         public Customer Customer { get; set; }
 
-        public ICollection<SaleItem> Items { get; set; }
+        public List<SaleItem> Items { get; set; }
     }
 }

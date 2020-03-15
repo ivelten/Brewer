@@ -1,4 +1,3 @@
-Microsoft.EntityFrameworkCore.SqlServer
 Microsoft.Extensions.Configuration.Abstractions
 Microsoft.Extensions.DependencyInjection.Abstractions
 Microsoft.Extensions.Configuration.Json

@@ -1,8 +1,13 @@
 source https://api.nuget.org/v3/index.json
 
-nuget Microsoft.EntityFrameworkCore 3.1.2
-nuget Microsoft.EntityFrameworkCore.Design 3.1.2
-nuget Microsoft.EntityFrameworkCore.SqlServer 3.1.2
-nuget Microsoft.Extensions.Configuration.Abstractions 3.1.2
-nuget Microsoft.Extensions.Configuration.Json 3.1.2
-nuget Microsoft.Extensions.DependencyInjection.Abstractions 3.1.2
+nuget Dapper
+nuget FluentAssertions
+nuget Microsoft.Extensions.Configuration.Abstractions
+nuget Microsoft.Extensions.Configuration.Json
+nuget Microsoft.Extensions.DependencyInjection.Abstractions
+nuget Microsoft.NET.Test.Sdk
+nuget System.Data.SqlClient
+nuget Microsoft.CSharp
+nuget xunit
+nuget xunit.runner.console
+nuget xunit.runner.visualstudio

@@ -1,7 +1,9 @@
 namespace Brewer.Domain.Entities
 {
-    public class Address
+    public class Address : IEntity<int>
     {
+        public int Id { get; set; }
+
         public string Street { get; set; }
 
         public short Number { get; set; }
@@ -10,6 +12,6 @@ namespace Brewer.Domain.Entities
 
         public string Cep { get; set; }
 
-        public State State { get; set; }
+        public int StateId { get; set; }
     }
 }

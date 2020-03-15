@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Brewer.Domain\Brewer.Domain.csproj" />
+    <ProjectReference Include="..\Brewer.Infrastructure.Abstractions\Brewer.Infrastructure.Abstractions.csproj" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

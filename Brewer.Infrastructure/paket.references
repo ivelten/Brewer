@@ -1,0 +1,4 @@
+Dapper
+Microsoft.Extensions.Configuration.Abstractions
+System.Data.SqlClient
+Microsoft.CSharp
